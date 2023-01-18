@@ -71,6 +71,9 @@ body {
     background: #DD9428;
     border-radius: 38px;
 }
+.btn:hover {
+    color: white;
+}
 .video p {
     font-weight: 500;
     font-size: 16px;
@@ -142,6 +145,9 @@ body {
     text-align: center;
     color: #DD9428;
 }
+.btn1:hover {
+    color: black;
+}
 .containerman {
     width: 100%;
     height: 518px;
@@ -178,6 +184,7 @@ input[type=text] {
     font-size: 20px;
     color: #B7C3CC;
     padding: 5px 0 0 10px;
+    outline: none;
 }
 input[type=phone] {
     width: 283px;
@@ -188,6 +195,7 @@ input[type=phone] {
     font-size: 20px;
     color: #B7C3CC;
     padding: 5px 0 0 10px;
+    outline: none;
 }
 .btn2 {
     width: 296.56px;
@@ -197,6 +205,9 @@ input[type=phone] {
     font-weight: 600;
     font-size: 20px;
     color: #331111;
+}
+.btn2:hover {
+    color: white;
 }
 .contact {
     float: right;
@@ -259,6 +270,9 @@ input[type=phone] {
     font-size: 20px;
     text-align: center;
     color: #DD9428;
+}
+.btn3:hover {
+    color: black;
 }
 .wrapper2 {
     width: 100%;
