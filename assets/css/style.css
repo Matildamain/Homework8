@@ -1,0 +1,297 @@
+@import url(fonts.css);
+
+.main {
+    width: 100%;
+    height: 970px;
+    background: url(../img/lighthouse.png) no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 100%;
+    height: 69px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 120px 0 124px;
+}
+a {
+    margin: 18px;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+}
+a:last-child {
+    margin: 0;
+}
+.content {
+    margin-top:10%;
+    width: 55%;
+    padding: 0 120px;
+}
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    color: white;
+    
+    
+}
+body {
+    font-family: 'Montserrat';
+    background: white;
+}
+.burger-menu .line {
+    width: 30px;
+    background-color: white;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.about {
+    margin-top: 3%;
+    width: 35%;
+    padding: 0 120px;
+}
+.about p {
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.btn {
+    width: 335px;
+    height: 75px;
+    margin: 70px 0 0 120px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: #331111;
+    background: #DD9428;
+    border-radius: 38px;
+}
+.video p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #A1A8B6;
+    width:35%;
+    margin-left: 23px;
+}
+.video {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.request {
+    display: flex;
+    align-items: flex-end;
+}
+.icon {
+    margin: 120px 0 0 121px;
+}
+.icon p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.iconznak {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.container {
+    display: flex;
+    align-items: start;
+}
+.about.box.cover {
+    width: 830px;
+    height: 475px;
+    padding-top: 150px;
+    margin-left: 239px;
+    background: url(../img/Hawaii.png) center no-repeat;
+    background-size: contain;
+    border-radius: 2px;
+}
+.about.box h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 42px;
+    color: #000000;
+    padding-top: 120px;
+}
+.about.box p {
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 60px;
+}
+.btn1 {
+    width: 275px;
+    height: 75px;
+    margin-left: 3%;
+    margin-top: 50px;
+    border: 2px solid #DD9428;
+    border-radius: 38px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #DD9428;
+}
+.containerman {
+    width: 100%;
+    height: 518px;
+    margin-top: 160px;
+    background: url(../img/man.png) center no-repeat;
+    background-size: cover;
+
+}
+.leave {
+    width: 30%;
+    padding: 133px 0 0 800px;
+}
+.leave h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    color: #000000;
+}
+.leave p {
+    width: 40%;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    line-height: 33px;
+}
+input[type=text] {
+    width: 283px;
+    height: 75px;
+    border: 2px solid #CED8DF;
+    border-radius: 38px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #B7C3CC;
+    padding: 5px 0 0 10px;
+}
+input[type=phone] {
+    width: 283px;
+    height: 75px;
+    border: 2px solid #CED8DF;
+    border-radius: 38px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #B7C3CC;
+    padding: 5px 0 0 10px;
+}
+.btn2 {
+    width: 296.56px;
+    height: 83.56px;
+    background: #DD9428;
+    border-radius: 38px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #331111;
+}
+.contact {
+    float: right;
+    display: block;
+    padding-top: 150px;
+    margin-right: 8%;
+}
+.contact p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+.contact a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color:  #DD9428;
+    margin-top: 10px;
+}
+.about.review.cover {
+    width: 830px;
+    height: 475px;
+    padding-top: 160px;
+    margin-right: 140px;
+    background: url(../img/review.png) center no-repeat;
+    background-size: contain;
+    border-radius: 2px;
+}
+.about.review {
+    width: 50%;
+}
+.about.review h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 42px;
+    color: #000000;
+    padding-top: 120px;
+}
+.about.review p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 60px;
+}
+.btn3 {
+    width: 275px;
+    height: 75px;
+    margin-left: 3%;
+    margin-top: 50px;
+    border: 2px solid #DD9428;
+    border-radius: 38px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #DD9428;
+}
+.wrapper2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F5F5F5;
+}
+.block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 500px;
+}
+.box {
+    width: 20%;
+    padding-right: 160px;
+}
+.block1 {
+
+    display: flex;
+    align-items: center;
+    padding-right: 120px;
+}
+.block a, .block1 a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #90A4B2;
+}
+.block3 {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
